@@ -1,0 +1,9 @@
+#Log Files
+*.log
+#AUX Files From TexEdit
+*.aux
+#Out Files From TexEdit
+*.out
+#GZ Files 
+*.gz
+

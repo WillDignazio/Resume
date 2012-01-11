@@ -6,4 +6,6 @@
 *.out
 #GZ Files 
 *.gz
+#Specific Synctex GX Remove
+Will_Dignazio_Resume.synctex.gz
 

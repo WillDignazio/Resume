@@ -47,7 +47,7 @@
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
-		\textit{#3} & \textit{#4} \\
+		{#3} & {#4} \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
@@ -64,10 +64,10 @@
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 	\textbf{\href{http://csh.rit.edu/~slackwill}{\Huge William M. Dignazio}} & \href{mailto:slackwill@csh.rit.edu}{slackwill@csh.rit.edu}\\ &
 	\href{http://csh.rit.edu/~slackwill}{http://csh.rit.edu/~slackwill} \\
-	{\footnotesize \textit{{School Address: 03315 Nathaniel Rochester Hall,
+	{\footnotesize {{School: 03315 Nathaniel Rochester Hall,
 Rochester, NY 14623}}} & \\
-	{\footnotesize \textit{{Home Address: 1650 Warrendale Bayne Rd, Baden, PA 15005}}} & \\
-	{\footnotesize \textit{{Phone Number: (724)831-7693}}} & 
+	{\footnotesize {{Home: 1650 Warrendale Bayne Rd, Baden, PA 15005}}} & \\
+	{\footnotesize {{Phone: (724)831-7693}}} & 
 
 	\end{tabular*}
 \\
@@ -78,23 +78,25 @@ Rochester, NY 14623}}} & \\
 
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Education}
+	{ \footnotesize
 	\begin{itemize}
 		\item
-			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu/}{rit.edu}}{\href{http://www.cs.rit.edu/}{Freshman Computer Science Student}; {PFOS: 3.0}}{Aug. 2011 - Current}
+			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu/}{rit.edu}}{\href{http://www.cs.rit.edu/}{Freshman Computer Science Student}}{Aug. 2011-Current}
 				{ \footnotesize
 				\begin{itemize}
 					\resitem{\textbf{Available for internship: Summer 2012}}
-					\resitem{Key Courses:\href{https://register.rit.edu/courseSchedule/20111/40/03/241/05}{Intro To Computer Science}, \href{https://register.rit.edu/courseSchedule/20112/40/03/242/05}{Data Structures Problem Solving}, \href{https://register.rit.edu/courseSchedule/20112/17/20/053/03}{Pathways: Leadership}}
-					
+					\resitem{PFOS: 3.0}
+					\resitem{Key Courses: \href{https://register.rit.edu/courseSchedule/20111/40/03/241/05}{Intro To Computer Science}, \href{https://register.rit.edu/courseSchedule/20112/40/03/242/05}{Data Structures Problem Solving}, \href{https://register.rit.edu/courseSchedule/20112/17/20/053/03}{Leadership}}
 				\end{itemize}
 				}
 	\end{itemize} % End Education list
-
+	}
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Experience}
+{\footnotesize
 	\begin{itemize}
 		\item 
-			\ressubheading{Computer Science House:}{\href{http://www.csh.rit.edu/}{csh.rit.edu}}{Active Member}{Aug 2011-Current} 
+			\ressubheading{Computer Science House:}{\href{http://www.csh.rit.edu/}{csh.rit.edu}}{Active Member}{Aug. 2011-Current} 
 			{ \footnotesize
 				\begin{itemize}		
 					\resitem{{Freshman Project} - Helped organize and run a game tournament, raising over \$600} 
@@ -121,37 +123,47 @@ Rochester, NY 14623}}} & \\
 			}
 		
 	\end{itemize}  % End Experience list
+}
 %%%%%%%%%%%%%%%%%%%%%%
 
 \resheading{{Skills}}
+{ \footnotesize
 	\begin{description}
 		\item{\textbf{Operating Systems: }{Linux (Archlinux, Slackware, Ubuntu, Fedora), Windows XP/Vista/7}}
-		\item{\textbf{Programming Languages: }{C, Assembly, Python, Bash, C\#, Java}}
-	\end{description}
-
-%%%%%%%%%%%%%%%%%%%%%%
-\resheading{Projects}
-	{ \footnotesize
-	\begin{itemize}
-		\resitem{\href{http://www.github.com/WillDignazio/Foundation/}{\textbf{Foundation}}
+		\item{\textbf{Programming Languages: }}
 			\begin{itemize}
-				\item{Open Source Kernel}}
+				\item{Well Versed: }{C, Assembly(NASM), Python, Bash, C\#, Java}
+				\item{Proficient: }{C++, Latex, Actionscript 3}
+				\item{Used: }{VisualBasic, php, Batch}
+			\end{itemize}
+	\end{description}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Projects}	
+{ \footnotesize
+	\begin{itemize}
+		\item 
+		\ressubheading{Foundation}{\href{http://www.github.com/WillDignazio/Foundation/}{github.com/Foundation}}{\footnotesize{Language: C}}{Oct. 2011-Current}
+			\begin{itemize}
+				\item{Open Source Kernel}
 				\item{Boots and operates on IA32 hardware}
 				\item{Video, keyboard, PIT, and textmode drivers written}
 			\end{itemize}
-		\resitem{\textbf{\href{http://www.github.com/WillDignazio/Atlas/}{Atlas}}}
+		\item		
+		\ressubheading{Atlas}{\href{http://www.github.com/WillDignazio/Atlas/}{github.com/Atlas}}{Language: Assembly}{Oct. 2011-Current}
 			\begin{itemize}
 				\item{IA32 Bootloader} 
 				\item{Boot platform for quick testing and ease of use}
 				\item{Linkable with any C/C++ or elf32 supported language}
 			\end{itemize}
-		\resitem{\textbf{\href{http://www.github.com/WillDignazio/Neo/}{\textbf{Neo File System}}}}				
+		\item
+		\ressubheading{Neo File System}{\href{http://www.github.com/WillDignazio/Neo/}{github.com/Neo}}{Language: C}{Dec. 2011-Current}				
 			\begin{itemize}
-				\item{C Language Based}
-				\item{Pointer based file system}
+				\item{Linked list based file system}
 				\item{Designed for use with Foundation and Atlas}
 			\end{itemize}
-		\resitem{\textbf{\href{http://www.github.com/WillDignazio/aparition/}{\textbf{Aparition}}}}
+		\item
+		\ressubheading{Aparition}{\href{http://www.github.com/WillDignazio/aparition/}{github.com/Aparition}}{Language: Python}{Jan. 2012-Current}
 			\begin{itemize}
 				\item{Gnome 3 desktop notifier}
 				\item{Designed to be the linux Growl equivalent}

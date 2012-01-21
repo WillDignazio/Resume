@@ -44,10 +44,15 @@
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
 \newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\restwoheading}[2]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
 		{#3} & {#4} \\
+\end{tabular*}\vspace{-6pt}}
+\newcommand{\restwosubheading}[2]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
 \end{tabular*}\vspace{-6pt}}
 %-----------------------------------------------------------
 
@@ -104,7 +109,7 @@ Rochester, NY 14623}}} & \\
 				\end{itemize}
 			}
 		\item	
-			\ressubheading{Internship}{\href{http://www.repturzai.com/}{Mike Turzai}}{Office Intern}{Sophomore Year 2008} 
+			\ressubheading{Internship}{\href{http://www.repturzai.com/}{State Rep. Mike Turzai}}{Office Intern}{Sophomore Year 2008} 
 				{ \footnotesize 
 				\begin{itemize}
 					\item{Worked under State Representative Mike Turzai}
@@ -139,31 +144,31 @@ Rochester, NY 14623}}} & \\
 	\end{description}
 }
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Projects}	
+\restwoheading{Projects}{TEST}	
 { \footnotesize
 	\begin{itemize}
 		\item 
-		\ressubheading{Foundation}{\href{http://www.github.com/WillDignazio/Foundation/}{github.com/Foundation}}{\footnotesize{Language: C}}{Oct. 2011-Current}
+		\restwosubheading{Foundation}{C}
 			\begin{itemize}
 				\item{Open Source Kernel}
 				\item{Boots and operates on IA32 hardware}
 				\item{Video, keyboard, PIT, and textmode drivers written}
 			\end{itemize}
 		\item		
-		\ressubheading{Atlas}{\href{http://www.github.com/WillDignazio/Atlas/}{github.com/Atlas}}{Language: Assembly}{Oct. 2011-Current}
+		\restwosubheading{Atlas}{Assembly}
 			\begin{itemize}
 				\item{IA32 Bootloader} 
 				\item{Boot platform for quick testing and ease of use}
 				\item{Linkable with any C/C++ or elf32 supported language}
 			\end{itemize}
 		\item
-		\ressubheading{Neo File System}{\href{http://www.github.com/WillDignazio/Neo/}{github.com/Neo}}{Language: C}{Dec. 2011-Current}				
+		\restwosubheading{Neo File System}{C}				
 			\begin{itemize}
 				\item{Linked list based file system}
 				\item{Designed for use with Foundation and Atlas}
 			\end{itemize}
 		\item
-		\ressubheading{Aparition}{\href{http://www.github.com/WillDignazio/aparition/}{github.com/Aparition}}{Language: Python}{Jan. 2012-Current}
+		\restwosubheading{Aparition}{Python}
 			\begin{itemize}
 				\item{Gnome 3 desktop notifier}
 				\item{Designed to be the linux Growl equivalent}

@@ -68,7 +68,7 @@
 \newcommand{\mywebheader}{
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 	\textbf{\href{http://csh.rit.edu/~slackwill}{\Huge William M. Dignazio}} & \href{mailto:slackwill@csh.rit.edu}{slackwill@csh.rit.edu}\\ &
-	\href{http://csh.rit.edu/~slackwill}{http://csh.rit.edu/~slackwill} \\
+	\href{http://csh.rit.edu/~slackwill}{http://csh.rit.edu/{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}slackwill} \\
 	{\footnotesize {{School: 03315 Nathaniel Rochester Hall,
 Rochester, NY 14623}}} & \\
 	{\footnotesize {{Home: 1650 Warrendale Bayne Rd, Baden, PA 15005}}} & \\
@@ -134,18 +134,22 @@ Rochester, NY 14623}}} & \\
 \resheading{{Skills}}
 { \footnotesize
 	\begin{description}
-		\item{\textbf{Operating Systems: }{Linux (Archlinux, Slackware, Ubuntu, Fedora), Windows XP/Vista/7}}
+		\item{\textbf{Operating Systems: }}
+			\begin{itemize}
+				\item{Linux (Archlinux, Slackware, Ubuntu, Fedora)}
+				\item{Windows (XP, Vista, 7)}
+			\end{itemize}
 		\item{\textbf{Programming Languages: }}
 			\begin{itemize}
-				\item{Well Versed: }{C, Assembly(NASM), Python, Bash, C\#, Java}
-				\item{Proficient: }{C++, Latex, Actionscript 3}
-				\item{Used: }{VisualBasic, php, Batch}
+				\item{Proficient in: }{C, Assembly(NASM), Python, Bash, C\#, Java}
+				\item{Familiar with: }{C++, Latex, Batch}
 			\end{itemize}
 	\end{description}
 }
 %%%%%%%%%%%%%%%%%%%%%%
-\restwoheading{Projects}{TEST}	
+\resheading{Projects}
 { \footnotesize
+	\textit{Available on {\href{http://www.github.com/WillDignazio/}{github.com/WillDignazio}}}
 	\begin{itemize}
 		\item 
 		\restwosubheading{Foundation}{C}
@@ -168,7 +172,7 @@ Rochester, NY 14623}}} & \\
 				\item{Designed for use with Foundation and Atlas}
 			\end{itemize}
 		\item
-		\restwosubheading{Aparition}{Python}
+		\restwosubheading{Apparition}{Python}
 			\begin{itemize}
 				\item{Gnome 3 desktop notifier}
 				\item{Designed to be the linux Growl equivalent}

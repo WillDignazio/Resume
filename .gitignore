@@ -10,4 +10,5 @@
 *.lof
 #Specific Synctex GX Remove
 Will_Dignazio_Resume.synctex.gz
-
+*.tex~
+*.fdb_latexmk

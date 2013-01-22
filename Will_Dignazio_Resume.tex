@@ -75,8 +75,7 @@
 	{\footnotesize {{School: 3315 Nathaniel Rochester Hall,
 Rochester, NY 14623}}} & \\
 	{\footnotesize {{Home: 1650 Warrendale Bayne Rd, Baden, PA 15005}}} & \\
-	{\footnotesize {{Phone: (724)831-7693}}} & 
-
+	{\footnotesize {{Phone: (724) 831-7693}}} & Available for Cooperative Study Spring 2013
 	\end{tabular*}
 \\
 \vspace{0.1in}}
@@ -89,43 +88,44 @@ Rochester, NY 14623}}} & \\
 	{ \footnotesize
 	\begin{itemize}
 		\item
-			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu/}{rit.edu}}{\href{http://www.cs.rit.edu/}{Undergraduate Computer Science Student}}{Aug. 2011-Present}
+			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu}{rit.edu}}{\href{http://www.cs.rit.edu/}{Undergraduate Computer Science Student}}{Aug. 2011-Present}
 				{ \footnotesize
 				\begin{itemize}
 					\item{Expected Graduation Date: June 2016}
-					\item{Core Courses: Computer Science[1-4], FOSS (Free \& Open Source Software), Leadership}
+					\item{Core Courses: Computer Science[1-4], FOSS (Free \& Open Source Software), Leadership Pathways in RIT}
+					\item{Cumulative GPA: 3.03}
 				\end{itemize}
 				}
 	\end{itemize} % End Education list
 	}
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{Experience}
+\resheading{Professional Experience}
 {\footnotesize
 	\begin{itemize}
 			\item 
-			\ressubheading{ITS}{\href{http://www.rit.edu/its/}{Information \& Technology Services}}{Infrastructure Engineer}{June 2012 - Present}
+			\ressubheading{Information and Technology Services}{\href{http://www.rit.edu/its/}{RIT: rit.edu/its}}{Infrastructure Engineer}{June 2012 - January 2013}
 			{ \footnotesize
 				\begin{itemize}
-					\item{Handled software maintenance and feature tickets}
-					\item{Worked in both an academic and business environment}
-					\item{Basic database management, technical support, networking, email, and all basic needs of RIT's virtual infrastructure.}
+					\item{Handled software maintenance and feature tickets for in house applications.}
+					\item{Worked in both an academic and business environment, supporting both the student management system, as well as general business data management.}
+					\item{Wrote portions of, and maintained, both front and backend code for our student management system.}
 				\end{itemize}
 			}
 		\item	
 			\ressubheading{Newstex}{\href{http://www.newstex.com/}{newstex.com}}{Web Programmer}{March - May 2012} 
 				{ \footnotesize 
 				\begin{itemize}
-					\item{Worked with cloud applications, including Boto and Botoweb}
-					\item{Gained experience in modern cloud application development}
+					\item{Worked with cloud applications, including Boto and Botoweb.}
+					\item{Designed and implemented data mining utilities for LinkedIn, Google Plus, and Twitter.}
 				\end{itemize}
 				}
 		\item 
 			\ressubheading{Computer Science House:}{\href{http://www.csh.rit.edu/}{csh.rit.edu}}{Systems Administrator}{Active Member} 
 			{ \footnotesize
 				\begin{itemize}		
-					\resitem{{OpComm} - Operations and Communications Director}
-					\resitem{{Major Project} - Required yearly technical project evaluated by peers}
-					\resitem{{Freshman Project} - Helped organize and run a game tournament, raising over \$600} 
+					\resitem{Operations and Communications Director: responsible for running system administrator meetings, being an active role in the CSH EBoard (Elected Board), and assuring maintained communication with alumni and active members.}
+					\resitem{{Major Project}: Required yearly technical project evaluated by peers, must be approved by the EBoard, designed and built over a several week period.}
+					\resitem{{Freshman Project}: Yearly project in which the Freshman organize a project, raising money for a charitable donation. Our year raised over \$600 by hosting a game tournament on campus.} 
 					
 				\end{itemize}
 			}		
@@ -138,22 +138,19 @@ Rochester, NY 14623}}} & \\
 	\begin{description}
 		\item{\textbf{Operating Systems:}}
 			\begin{itemize}
-				\item{Linux (Gentoo, Archlinux, Slackware, Ubuntu, Fedora)}
+				\item{Linux (Gentoo, Arch, Slackware, Ubuntu, Fedora)}
 				\item{Windows (XP, Vista, 7)}
 			\end{itemize}
 		\item{\textbf{Programming Languages: }}
 			\begin{itemize}
-				\item{Proficient in: }{C, C++, Assembly(NASM), Haskell, Python, Java, Makefile}
-				\item{Familiar with: }{LaTex, Bash, }
+				\item{Proficient in: }{C, C++, Assembly(NASM),  Python, Java, Makefile scripting}
+				\item{Familiar with: }{LaTex, Bash scripting, Haskell}
 			\end{itemize}
-		\item{\textbf{Extracurricular Hobbys: }} 
-			\begin{itemize}
-				\item{Systems Programming}
-				\item{Kernel Development} 
-				\item{Systems Administration}
-			\end{itemize}	
 	\end{description}
 }
+
+\pagebreak
+
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Projects}
 { \footnotesize
@@ -161,25 +158,34 @@ Rochester, NY 14623}}} & \\
 	\textit{Private code repositories trackable at {\href{http://git.slackwill.com/}{git.slackwill.com}}}
 	\begin{itemize}
 		\item 
-		\restwosubheading{Foundation}{C}
+		\restwosubheading{SOS (Sandbox Operating System) }{C}
 			\begin{itemize}
-				\item{Open Source Kernel}
-				\item{Boots and operates on IA32 hardware}
-				\item{Keyboard, PIT, and textmode drivers written}
+				\item{Open Source Kernel: Formally called "Foundation", it is a microkernel built off the specs provided by the Intel x86 Architecture manuals, and various online wikis.}
+				\item{Most hardware will support the system, being that its native architecture is x86. Recent design changes that have yet to be implemented allow portability to other architectures, such as ARM.}
 			\end{itemize}
 		\item		
 		\restwosubheading{Atlas}{Assembly}
 			\begin{itemize}
-				\item{IA32 Bootloader} 
-				\item{Boot platform for quick testing and ease of use}
-				\item{Linkable with any C/C++ or elf32 supported language}
+				\item{Intel Architecture bootstrap binary, boot arbitrary C or C++ code linked against it. Allows for quick system development, and simple x86 embedded device coding.} 
+				\item{Supports 16 and 32 bit operation, features simple graphics library for debugging and standard output.}
 			\end{itemize}
 		\item
 		\restwosubheading{slackbot}{C}
 			\begin{itemize}
-				\item{IRC Bot} 
-				\item{Handles CSH IRC channels}
-				\item{SSL/LDAP support}
+				\item{A virtual bot designed to administrate our IRC channels, giving the proper users automatic administrative access, and guests restricted access.}
+				\item{Integrates with LDAP to identify users, as well as connects and operates over SSL for secure authentication and data gathering.}
+			\end{itemize}
+		\item		
+		\restwosubheading{asmblog}{Assembly}
+			\begin{itemize}
+				\item{Blog platform written in NASM (Netwide Assembly, designed for use on 64-bit x86 operating systems.)}
+				\item{Uses FCGI and and custom routines to serve web content, can be used in tandem with any web server, my server hosts a build of asmblog with the NGINX web server.}
+			\end{itemize}
+		\item
+		\restwosubheading{PAGEFAULT}{Printed Content}
+			\begin{itemize}
+				\item{Floor research and development journal, focusing on member project development and design.}
+				\item{Posted on a bi-weekly basis, with regular submissions, averaging 3 posts per release.}
 			\end{itemize}
 	\end{itemize}
 }

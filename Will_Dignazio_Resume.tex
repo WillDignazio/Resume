@@ -13,6 +13,7 @@
 \documentclass[letterpaper,11pt]{article}
 
 %-----------------------------------------------------------
+\usepackage{tabularx}
 \usepackage{latexsym}
 \usepackage{fullpage}
 \usepackage[usenames,dvipsnames]{color}
@@ -70,12 +71,12 @@
 
 \newcommand{\mywebheader}{
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r} \\
-	\textbf{\href{http://www.slackwill.com/}{\large William M. Dignazio}} & \href{mailto:slackwill@csh.rit.edu}{slackwill@csh.rit.edu}\\ &
+	\textbf{\href{http://www.slackwill.com/}{\large William M. Dignazio}} & \href{mailto:wdignazio@gmail.com}{wdignazio@gmail.com}\\ &
 	\href{http://slackwill.com/}{http://slackwill.com} \\ \vspace{-10mm} \\
 	{\footnotesize {{School: 3315 Nathaniel Rochester Hall,
 Rochester, NY 14623}}} & \\
 	{\footnotesize {{Home: 1650 Warrendale Bayne Rd, Baden, PA 15005}}} & \\
-	{\footnotesize {{Phone: (724) 831-7693}}} & Available for Cooperative Study Spring 2013
+	{\footnotesize {{Phone: (724) 831-7693}}} & Available for Cooperative Study Summer 2014
 	\end{tabular*}
 \\
 \vspace{0.1in}}
@@ -88,27 +89,55 @@ Rochester, NY 14623}}} & \\
 	{ \footnotesize
 	\begin{itemize}
 		\item
-			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu}{rit.edu}}{\href{http://www.cs.rit.edu/}{Undergraduate Computer Science Student}}{Aug. 2011-Present}
+			\ressubheading{Rochester Institute of Technology - New York}{\href{http://www.rit.edu}{rit.edu}}{\href{http://www.cs.rit.edu/}{Undergraduate Computer Science Student}}{Aug. 2011 - Present}
 				{ \footnotesize
 				\begin{itemize}
 					\item{Expected Graduation Date: June 2016}
-					\item{Core Courses: Computer Science[1-4], FOSS (Free \& Open Source Software), Leadership Pathways in RIT}
-					\item{Cumulative GPA: 3.03}
+					\item{Core Courses: Computer Science[1-4], FOSS (Free \& Open Source Software), Computer Organization, Software Engineering}
 				\end{itemize}
 				}
 	\end{itemize} % End Education list
 	}
 %%%%%%%%%%%%%%%%%%%%%%
+
+\resheading{{Skills}}
+{ \footnotesize
+	\begin{description}
+		\item{\textbf{Operating Systems:}}
+			\begin{itemize}
+				\item{Linux (Gentoo, Arch, Slackware, Ubuntu, Fedora, Debian)}
+				\item{Mac OS X}
+				\item{Windows (XP, Vista, 7)}
+			\end{itemize}
+		\item{\textbf{Programming Languages:}}
+			\begin{itemize}
+				\item{Proficient in: }{C, C++, Assembly (x86, MIPS), Python, Java, Makefile, Git}
+				\item{Familiar with: }{LaTex, Bash, GNU Autotools, SVN}
+			\end{itemize}
+	\end{description}
+}
+%%%%%%%%%%%%%%%%%%%%%%
 \resheading{Professional Experience}
 {\footnotesize
 	\begin{itemize}
+			\item
+			\ressubheading{Exablox}{\href{http://www.exablox.com/}{exablox.com}}{File System Performance Intern}{June 2013 - Present} 
+			{ \footnotesize
+				\begin{itemize}
+					\item{Tuned and optimized our object-based file system}
+					\item{Developed tools and internal file system checks for performance diagnostics}
+					\item{Worked with various FUSE based mechanisms and third party libraries}
+					\item{Developed Octeon hardware interfaces for our file system}
+					\item{Rendered statistics and generated benchmark marketing data}
+				\end{itemize}
+			}
 			\item 
 			\ressubheading{Information and Technology Services}{\href{http://www.rit.edu/its/}{RIT: rit.edu/its}}{Infrastructure Engineer}{June 2012 - January 2013}
 			{ \footnotesize
 				\begin{itemize}
-					\item{Handled software maintenance and feature tickets for in house applications.}
-					\item{Worked in both an academic and business environment, supporting both the student management system, as well as general business data management.}
-					\item{Wrote portions of, and maintained, both front and backend code for our student management system.}
+					\item{Handled software maintenance and feature tickets for in house applications}
+					\item{Worked in both an academic and business environment, supporting both the student management system, as well as general business data management}
+					\item{Wrote portions of, and maintained, both front and backend code for our student management system}
 				\end{itemize}
 			}
 		\item	
@@ -125,37 +154,27 @@ Rochester, NY 14623}}} & \\
 				\begin{itemize}		
 					\resitem{Operations and Communications Director: responsible for running system administrator meetings, being an active role in the CSH EBoard (Elected Board), and assuring maintained communication with alumni and active members.}
 					\resitem{{Major Project}: Required yearly technical project evaluated by peers, must be approved by the EBoard, designed and built over a several week period.}
-					\resitem{{Freshman Project}: Yearly project in which the Freshman organize a project, raising money for a charitable donation. Our year raised over \$600 by hosting a game tournament on campus.} 
-					
 				\end{itemize}
 			}		
 	\end{itemize}  % End Experience list
 }
 %%%%%%%%%%%%%%%%%%%%%%
 
-\resheading{{Skills}}
-{ \footnotesize
-	\begin{description}
-		\item{\textbf{Operating Systems:}}
-			\begin{itemize}
-				\item{Linux (Gentoo, Arch, Slackware, Ubuntu, Fedora)}
-				\item{Windows (XP, Vista, 7)}
-			\end{itemize}
-		\item{\textbf{Programming Languages: }}
-			\begin{itemize}
-				\item{Proficient in: }{C, C++, Assembly(NASM),  Python, Java, Makefile scripting}
-				\item{Familiar with: }{LaTex, Bash scripting, Haskell}
-			\end{itemize}
-	\end{description}
+\resheading{Online Presence}
+{
+	\begin{tabularx}{2in}{XX}
+		LinkedIn: & \href{http://www.linkedin.com/in/slackwill/}{linkedin.com/in/slackwill} \\
+		Githhub: & \href{http://www.github.com/WillDignazio}{github.com/WillDignazio} \\
+		Blog: & \href{http://www.slackwill.com/}{slackwill.com} \\
+		Twitter: & \href{https://twitter.com/WillDignazio}{twitter.com/WillDignazio} \\
+	\end{tabularx}
 }
-
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%
 \resheading{Projects}
 { \footnotesize
 	\textit{Available on {\href{http://www.github.com/WillDignazio/}{github.com/WillDignazio.}}}
-	\textit{Private code repositories trackable at {\href{http://git.slackwill.com/}{git.slackwill.com}}}
 	\begin{itemize}
 		\item 
 		\restwosubheading{SOS (Sandbox Operating System) }{C}
@@ -191,7 +210,6 @@ Rochester, NY 14623}}} & \\
 }
 
 %%%%%%%%%%%%%%%%%%%%%%
-
 
 \end{document}
 
